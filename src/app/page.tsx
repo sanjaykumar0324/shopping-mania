@@ -5,9 +5,10 @@ import TodayDiscountProducts from "./Home/TodayDiscountProducts";
 
 import { LoadMore } from "./Home/LoadMore";
 import { Product_type } from "@/utils/types";
+import { BASE_URL } from "@/redux/store";
 
 async function fetchDiscountedProducts() {
-  const res = await fetch(`${process.env.BASE_URL}/api/products`, {
+  const res = await fetch(`${BASE_URL}/api/products`, {
     method: "GET",
     cache: "no-store",
   });

@@ -31,16 +31,19 @@ export const headerIconData: HeaderIcon_type[] = [
   {
     id: 1,
     icon: CiHeart,
+    name:'Favourites',
     path: "/my-account/favourites",
   },
   {
     id: 2,
     icon: CiShoppingCart,
+    name: 'Cart',
     path: "/my-account/cart",
   },
   {
-    id: 1,
+    id: 3,
     icon: CiUser,
+    name:'My account',
     path: "/my-account",
   },
 ];

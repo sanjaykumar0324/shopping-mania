@@ -1,3 +1,4 @@
+import { BASE_URL } from '@/redux/store';
 import React from 'react';
 
 interface Category {
@@ -7,7 +8,7 @@ interface Category {
 }
 
 const Hero = async () => {
-  const res = await fetch(`http://localhost:3000/api/category`, {
+  const res = await fetch(`${BASE_URL}/api/category`, {
     method: 'GET',
     cache: 'no-store', 
   });

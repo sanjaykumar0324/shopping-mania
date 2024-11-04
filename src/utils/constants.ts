@@ -22,3 +22,4 @@ export const HALF_STAR_FILL = FaStarHalfAlt;
 export const FILL_FAV_ICON= FaHeart;
 export const RIGHT_ARROW_ICON =IoIosArrowRoundForward;
 export const LEFT_ARROW_ICON =IoIosArrowRoundBack;
+export const MODE= 'no-cors';

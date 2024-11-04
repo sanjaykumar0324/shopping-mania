@@ -20,7 +20,7 @@ export function LoadMore() {
     new Promise((resolve) => setTimeout(resolve, ms));
 
   const loadMoreProducts = async () => {
-    await delay(3000);
+    await delay(1500);
     const nextPage = (page % 7) + 1;
     const newProducts = await fetchProducts(nextPage);
     if (newProducts) {

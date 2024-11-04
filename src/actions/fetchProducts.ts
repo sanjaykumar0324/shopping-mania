@@ -6,6 +6,7 @@ export async function fetchProducts(page: number) {
     try {
       const response = await fetch(apiUrl);
       const data = await response.json();
+      
       return Array.isArray(data.products) ? data.products : [];
     } catch (error) {
       console.log(error)

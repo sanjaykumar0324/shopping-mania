@@ -13,7 +13,7 @@ export type HeaderIcon_type = {
 };
 export type Cart_type = {
   _id: string;
-  productName: string;
+  title: string;
   image: string;
   quantity : number;
   price : number;
